@@ -1,0 +1,1 @@
+The two main reasons to use Log or square root scale is to deal with skewness towards large values; where one or a few points are much larger than the rest of the data or to show percent change or multiplicative factors.
