@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="lib/d3.v5.min.js"></script>
+<style>
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+</style>
+  
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.0.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Rebecca Patro</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/snapishdragon" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://rebeccareeba.medium.com/" class="medium"><i class="bx bxl-medium"></i></a>
+          <a href="https://www.instagram.com/reeba.at.manderley/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/rebeccareeba" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/rebeccapatro/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="https://rebeccareeba.github.io/" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="https://rebeccareeba.github.io/" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="https://rebeccareeba.github.io/" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="https://rebeccareeba.github.io/" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="https://rebeccareeba.github.io/" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Blog</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfoio Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfoio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <div class="row-lg-6"></div>
+                <li><strong>Category</strong>:Visualisation</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/rebeccareeba/DataScienceProtfolio/tree/main/D3visualization">Github</a></li>
+              </div>
+              
+              </ul>
+            </div>
+            <div class="col" >
+              <div class="portfolio-info">
+                <h3>Other D3 Examples</h3>
+                <ul>
+                  <div class="row-lg-6"></div>
+                  <li><a href="choropleth.html"><i class="bi bi-chevron-right"></i> <strong>Choropelth Example</strong> <span> with States detail and year slider</span></a></li>
+                  <li><a href="interactive.html"><i class="bi bi-chevron-right"></i> <strong>Interactive lince chart</strong> <span> US Earthquakes by Region 2011-2015</span></a></li>
+                  <li><a href="stacked.html"><i class="bi bi-chevron-right"></i> <strong>Stacked chart</strong> <span> with drop down year menu</span></a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="portfolio-description">
+              <h2>Force Directed Graph</h2>
+              <p>
+              
+              </p>
+            </div>
+          </div>
+          <script>
+
+            // get the data
+            links =  [
+              {
+                "source": "Milwaukee Bucks",
+                "target": "Cleveland Cavaliers",
+                "value": 0
+              },
+              {
+                "source": "Milwaukee Bucks",
+                "target": "Sacramento Kings",
+                "value": 0
+              },
+              {
+                "source": "Detroit Pistons",
+                "target": "Philadelphia 76ers",
+                "value": 1
+              },
+              {
+                "source": "Cleveland Cavaliers",
+                "target": "Los Angeles Lakers",
+                "value": 1
+              },
+              {
+                "source": "Dallas Mavericks",
+                "target": "Houston Rockets",
+                "value": 1
+              },
+              {
+                "source": "Miami Heat",
+                "target": "San Antonio Spurs",
+                "value": 1
+              },
+              {
+                "source": "Miami Heat",
+                "target": "Los Angeles Lakers",
+                "value": 1
+              },
+              {
+                "source": "Brooklyn Nets",
+                "target": "Los Angeles Lakers",
+                "value": 1
+              },
+              {
+                "source": "Brooklyn Nets",
+                "target": "Houston Rockets",
+                "value": 1
+              },
+              {
+                "source": "Sacramento Kings",
+                "target": "Los Angeles Lakers",
+                "value": 1
+              },
+              {
+                "source": "Houston Rockets",
+                "target": "Golden State Warriors",
+                "value": 0
+              },
+              {
+                "source": "Los Angeles Lakers",
+                "target": "Los Angeles Clippers",
+                "value": 1
+              },
+              {
+                "source": "Sacramento Kings",
+                "target": "Philadelphia 76ers",
+                "value": 1
+              },
+              {
+                "source": "San Antonio Spurs",
+                "target": "Miami Heat",
+                "value": 0
+              },
+              {
+                "source": "Portand Trail Blazers",
+                "target": "Miami Heat",
+                "value": 0
+              },
+              {
+                "source": "Chicago Bulls",
+                "target": "Boston Celtics",
+                "value": 0
+              },
+              {
+                "source": "New York Knicks",
+                "target": "Golden State Warriors",
+                "value": 0
+              },
+              {
+                "source": "Denver Nuggets",
+                "target": "Golden State Warriors",
+                "value": 0
+              },
+              {
+                "source": "Portand Trail Blazers",
+                "target": "Golden State Warriors",
+                "value": 0
+              },
+              {
+                "source": "New York Knicks",
+                "target": "Denver Nuggets",
+                "value": 1
+              },
+              {
+                "source": "San Antonio Spurs",
+                "target": "Denver Nuggets",
+                "value": 0
+              },
+              {
+                "source": "Houston Rockets",
+                "target": "Denver Nuggets",
+                "value": 1
+              },
+              {
+                "source": "Portand Trail Blazers",
+                "target": "San Antonio Spurs",
+                "value": 1
+              },
+              {
+                "source": "Houston Rockets",
+                "target": "Brooklyn Nets",
+                "value": 0
+              },
+              {
+                "source": "Milwaukee Bucks",
+                "target": "Boston Celtics",
+                "value": 0
+              },
+              {
+                "source": "Golden State Warriors",
+                "target": "Milwaukee Bucks",
+                "value": 1
+              },
+              {
+                "source": "Golden State Warriors",
+                "target": "Atlanta Hawks",
+                "value": 1
+              },
+              {
+                "source": "Orlando Magic",
+                "target": "Memphis Grizzlies",
+                "value": 0
+              },
+              {
+                "source": "Washington Wizards",
+                "target": "New York Knicks",
+                "value": 1
+              },
+              {
+                "source": "Boston Celtics",
+                "target": "Orlando Magic",
+                "value": 1
+              },
+              {
+                "source": "Oklahoma City Thunder",
+                "target": "Sacramento Kings",
+                "value": 0
+              },
+              {
+                "source": "Boston Celtics",
+                "target": "Charlotte Hornets",
+                "value": 1
+              },
+              {
+                "source": "Boston Celtics",
+                "target": "Philadelphia 76ers",
+                "value": 1
+              },
+              {
+                "source": "Brooklyn Nets",
+                "target": "Miami Heat",
+                "value": 1
+              },
+              {
+                "source": "Indiana Pacers",
+                "target": "Chicago Bulls",
+                "value": 1
+              },
+              {
+                "source": "New York Knicks",
+                "target": "Boston Celtics",
+                "value": 0
+              },
+              {
+                "source": "Los Angeles Lakers",
+                "target": "Phoenix Suns",
+                "value": 0
+              },
+              {
+                "source": "Golden State Warriors",
+                "target": "Dallas Mavericks",
+                "value": 1
+              },
+              {
+                "source": "New Orleans Pelicans",
+                "target": "Indiana Pacers",
+                "value": 0
+              },
+              {
+                "source": "Milwaukee Bucks",
+                "target": "Brooklyn Nets",
+                "value": 0
+              },
+              {
+                "source": "Washington Wizards",
+                "target": "Portand Trail Blazers",
+                "value": 1
+              },
+              {
+                "source": "Utah Jazz",
+                "target": "Golden State Warriors",
+                "value": 1
+              },
+              {
+                "source": "Boston Celtics",
+                "target": "Utah Jazz",
+                "value": 1
+              },
+              {
+                "source": "Golden State Warriors",
+                "target": "Charlotte Hornets",
+                "value": 1
+              },
+              {
+                "source": "Boston Celtics",
+                "target": "Atlanta Hawks",
+                "value": 1
+              },
+              {
+                "source": "Philadelphia 76ers",
+                "target": "Boston Celtics",
+                "value": 0
+              }
+            ];
+            //d3.select("body").append("p").text("rpatro6");
+            var nodes = {};
+            
+            // compute the distinct nodes from the links.
+            links.forEach(function(link) {
+                link.source = nodes[link.source] ||
+                    (nodes[link.source] = {name: link.source});
+                link.target = nodes[link.target] ||
+                    (nodes[link.target] = {name: link.target});
+            });
+            
+            var width = 1600,
+                height = 700;
+            
+            var force = d3.forceSimulation()
+                .nodes(d3.values(nodes))
+                .force("link", d3.forceLink(links).distance(100))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force("x", d3.forceX())
+                .force("y", d3.forceY())
+                .force("charge", d3.forceManyBody().strength(-250))
+                .alphaTarget(1)
+                .on("tick", tick);
+            
+            var svg = d3.select("body").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+            
+            // add the links and the arrows
+            var path = svg.append("g")
+                .selectAll("path")
+                .data(links)
+                .enter()
+                .append("path")
+                .attr("class", function(d) { return "link " + d.type; })
+                .attr("class", "link")
+                .style("stroke", function(d){
+                    if(d.value >= 1) {return 'black'} else {return 'blue'}
+                })
+                .style("stroke-dasharray", function(d){
+                  if(d.value >= 1){return "3,3"}
+                })
+                .style("stroke-width", function(d){
+                  if(d.value>= 1){return '.5px'} else {return '4px'}
+                })
+                .attr("marker-end", "url(#end)");
+                for (var i = 0; i < force.nodes().length; i++) {
+                  force.nodes()[i].fixed = true;}
+            // define the nodes
+            var node = svg.selectAll(".node")
+                .data(force.nodes())
+                .enter().append("g")
+                .attr("class", "node")
+                .on("dblclick", dblclick)
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+            
+            d3.selectAll('g.node')
+              .each(function(d) {
+                d.degree = 0;
+              });
+            
+            // Calculate degree
+            links.forEach(function(d){
+                d.source.degree += 1;
+                d.target.degree += 1;
+              });
+            
+            // Accessor functions to get min & max
+            var minDegree = d3.min(
+              d3.values(nodes), function(d) {
+                return d.degree; })
+            
+            var maxDegree = d3.max(
+              d3.values(nodes), function(d) {
+                return d.degree; })
+            
+            // Create node scale based on degree
+            var nodescale = d3.scaleSqrt()
+              .domain( [minDegree, maxDegree] )
+              .range( [3, 15] ); // Change this to your desired range
+            //Adding color
+            var sequentialScale = d3.scaleSequential()
+              .domain([0,11])
+              .interpolator(d3.interpolateGnBu);
+            //Added color
+            // add the nodes
+            
+            node.append("circle")
+                .attr("r", function(d) {
+                    return nodescale(d.degree)*1.5;})
+                .style('fill', function(d) {
+                    return sequentialScale(d.degree);})
+                //.on("dblclick", dblclick);
+            
+            function dblclick(d) {
+            
+                      console.log("1")
+                      console.log(d.fixed)
+              //           d.fixed = false;}
+              if(d.fixed == true){
+                  d.fx = d.x;
+                  d.fy = d.y;
+                  d3.select(this).select("circle").style("fill","#feb24c")
+                  console.log("2")
+                  console.log(d.fixed)
+                  d.fixed = false;}
+                else if(d.fixed==false){
+                    d.fx = null;
+                    d.fy = null;
+                    d3.select(this).select("circle").style('fill', sequentialScale(d.degree))
+                    //function() {
+                     //return sequentialScale(d.degree);})
+                    d.fixed = true;
+                    console.log("3")
+                    console.log(d.fixed)
+                  }
+              //  }
+                      }
+            
+              node.append("text")
+                  .attr("dx", 10)
+                  .attr("dy", "1.5em")
+                  .style("font-weight", 700)
+                  .text(function(d) { return d.name });
+            
+            // add the curvy lines
+            function tick() {
+                path.attr("d", function(d) {
+                    var dx = d.target.x - d.source.x,
+                        dy = d.target.y - d.source.y,
+                        dr = Math.sqrt(dx * dx + dy * dy);
+                    return "M" +
+                        d.source.x + "," +
+                        d.source.y + "A" +
+                        dr + "," + dr + " 0 0,1 " +
+                        d.target.x + "," +
+                        d.target.y;
+                });
+            
+                node
+                    .attr("transform", function(d) {
+                    return "translate(" + d.x + "," + d.y + ")"; })
+            
+            };
+            
+            function dragstarted(d) {
+            
+                if (!d3.event.active) force.alphaTarget(0.3).restart();
+            
+            };
+            
+            function dragged(d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+                //d3.select(this).select("circle").style('fill', "#2c7fb8")
+            };
+            
+            function dragended(d) {
+                if (!d3.event.active) force.alphaTarget(0);
+                if (d.fixed == false) {
+                    d.fx = d.x;
+                    d.fy = d.y;
+              //      d3.select(this).select("circle").style("fill","#feb24c")
+                    //console.log(d)
+                //
+            }
+              else if (d.fixed == true) {
+                    d.fx = null;
+                    d.fy = null;
+                  //d3.select(this).select("circle").style('fill', "#2c7fb8")
+                }
+            };
+            
+            </script>
+        </div>
+
+      </div>
+      
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
